@@ -1,11 +1,14 @@
 import Paragraf from '../Paragraf'
 import Title from '../Title'
 
+import { ButtonLink, Card } from './styles'
+
 const Project = () => (
-  <div>
+  <Card>
     <Title>Projeto lista de tarefas</Title>
     <Paragraf category="secondary">Teste</Paragraf>
-  </div>
+    <ButtonLink>Vizualizar</ButtonLink>
+  </Card>
 )
 
 export default Project
